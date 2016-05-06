@@ -33,7 +33,7 @@
     <hr class="line-left">
     <hr class="line-right">
     <div class="main">
-    <h1 class="title" style="font-family: 微软雅黑;font-weight:bold;font-style: inherit;" id="ourTime">我们的时光</h1>
+    <h1 class="title" id="ourTime">我们的时光</h1>
 
       
    <?php 
@@ -43,7 +43,7 @@
 	for($i=0;$i<count($years);$i++){
 		?>
 		<div class="year">
-		<h2 style="font-family: 微软雅黑;font-weight:bold;"><a href="#"><?php echo $years[$i].'年'; ?><i></i></a></h2>
+		<h2 class="year_"><a href="#"><?php echo $years[$i].'年'; ?><i></i></a></h2>
 		<div class="list">
 		<ul>
 		
@@ -62,14 +62,14 @@
 				}
 				?>
 			
-				<p class="date" style="font-family: 微软雅黑;">
+				<p class="date">
 				<?php echo $timeRec->getDate(); ?><br/>
-				<span style="margin-right: 5px; 微软雅黑;font-size: 11px;color: silver;"><?php echo $timeRec->getAddress(); ?></sapn><br/>
-				<span style="margin-right: 5px; 微软雅黑;font-size: 11px;color: silver;"><?php echo $timeRec->getAuthor(); ?></sapn>
+				<span class="silverstyle"><?php echo $timeRec->getAddress(); ?></sapn><br/>
+				<span class="silverstyle"><?php echo $timeRec->getAuthor(); ?></sapn>
 				</p>
-				<p class="intro" style="font-family: 微软雅黑;">
+				<p class="intro">
 					<?php echo $timeRec->getTitle(); ?>
-					<div class="more" style="font-family: 微软雅黑;font-size: 12px;">
+					<div class="more" style="font-size: 12px;">
 						<div><?php echo $timeRec->getContent(); ?></div>
 						<?php 
 							if(count($timeRec->getImages()) >0){
@@ -107,7 +107,7 @@
     
   </div>
    <div align="center" style="padding-top:40px;">
-    <audio src="http://sc.111ttt.com/up/mp3/278197/D7FA56B0D6B1130FF9E52D4B7570D3B6.mp3" controls="controls" autoplay="true">您的浏览器不支持背景音乐播放。</audio>
+    <audio src="http://sc.111ttt.com/up/mp3/242273/1B22FF6ECB5DCA0484760D440ACBF73A.mp3" controls="controls" autoplay="true">您的浏览器不支持背景音乐播放。</audio>
     </div>
     <div align="center" style="padding-top:10px;">Copyright © 2015-2016  All Rights Reserved By Mr.C00der.Gu0 </div>
     <div class="bshare-custom" align="center" style="padding-top:10px;"><div class="bsPromo bsPromo2"></div><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到QQ好友" class="bshare-qqim" href="javascript:void(0);"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到微信" class="bshare-weixin" href="javascript:void(0);"></a><a title="分享到i贴吧" class="bshare-itieba" href="javascript:void(0);"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到复制网址" class="bshare-clipboard" href="javascript:void(0);"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=1&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
@@ -146,7 +146,7 @@
 	});		
 	$("#elevator").click(function(){
 		$("html,body").animate({scrollTop: 0}, 500);	
-	});		
+	});	
 	$(".qr").hover(function(){
 		$(".qr-popup").show();
 	},function(){

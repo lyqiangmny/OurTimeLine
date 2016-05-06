@@ -254,4 +254,26 @@ hr {
 .ie7 .content .main .year h2 i{
 	left:40px
 }
-/*download by www.sucaijiayuan.com*/
+
+.date .intro .more{
+	font-family: Î¢ÈíÑÅºÚ;
+}
+
+.silverstyle{
+	margin-right: 5px;
+	font-family: Î¢ÈíÑÅºÚ;
+	font-size: 11px;
+	color: silver;
+}
+
+.title{
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight:bold;
+	font-style: inherit;
+}
+
+.year_{
+	font-family: Î¢ÈíÑÅºÚ;
+	font-weight:bold;
+}
+
