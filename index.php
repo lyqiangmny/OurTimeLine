@@ -108,8 +108,8 @@
   </div>
     <div align="center" style="padding-top:40px;">
     <audio controls="controls" loop="loop" autoplay="true">
-     <source src="midian.mp3" type="audio/mpeg" />
      <source src="dangni.mp3" type="audio/mpeg" />
+     <source src="midian.mp3" type="audio/mpeg" />
      您的浏览器不支持背景音乐播放。</audio>
     </div>
     <div align="center" style="padding-top:10px;">Copyright © 2015-2016  All Rights Reserved By Mr.C00der.Gu0 </div>
